@@ -1,0 +1,76 @@
+body{
+  background-image: url("../img/sfondo.jpg");
+}
+.contenitore{
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* parte intestazione */
+
+header{
+  background-image: url("../img/alberi.jpg");
+  margin-bottom: 5px;
+  /* da eliminare */
+  height: 250px;
+  background-color: gray;
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+}
+
+/* parte principale */
+
+.container::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.partesx{
+  float: left;
+  width: 30%;
+  /* da eliminare */
+  background-color: gray;
+  height: 400px;
+}
+
+
+.partemid{
+  float: left;
+  width: 35%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-bottom: 5px;
+  /* da eliminare */
+  background-color: gray;
+  height: 600px;
+}
+
+
+.partedx{
+  float: right;
+  width: 30%;
+}
+
+.sopra{
+  margin-bottom: 5px;
+  /* da eliminare */
+  background-color: gray;
+  height: 250px;
+}
+
+.sotto{
+  /* da eliminare */
+  background-color: gray;
+  height: 250px;
+}
+
+/* parte footer */
+
+
+footer{
+  /* da eliminare */
+  height: 150px;
+  background-color: gray;
+}
