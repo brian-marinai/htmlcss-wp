@@ -1,3 +1,5 @@
+* { margin: 0; padding: 0; }
+
 body{
   background-image: url("../img/sfondo.jpg");
 }
@@ -90,7 +92,7 @@ li:hover{
   }
 
   .partesx div{
-    margin: 15px;
+    margin: 25px;
   }
   .partesx a{
     font-family: 'Roboto', sans-serif;
@@ -129,41 +131,61 @@ li:hover{
 
 }
 
-.sopra h2{
+.blocco1 h2{
   text-align: center;
   color: black;
   font-size: 30px;
   font-family: 'Roboto', sans-serif;
 }
 
-.sopra p{
+.blocco1 p{
   margin: 25px;
   font-size: 20px;
   font-family: 'Roboto', sans-serif;
 }
 
-.sopra{
+.blocco1{
   margin-bottom: 5px;
   background-color: lightgray;
 }
 
-.sotto h2{
+.blocco2 h2{
   text-align: center;
   color: black;
   font-size: 30px;
   font-family: 'Roboto', sans-serif;
 }
 
-.sotto p{
+.blocco2 p{
   margin: 25px;
   font-size: 20px;
   font-family: 'Roboto', sans-serif;
 }
 
-.sotto{
+.blocco2{
   margin-bottom: 5px;
   background-color: lightgray;
 }
+
+.blocco3 h2{
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.blocco3 p{
+  margin: 25px;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.blocco3{
+  margin-bottom: 5px;
+  background-color: lightgray;
+}
+
+
 
 
 
@@ -172,7 +194,17 @@ li:hover{
 
 
 footer{
-  /* da eliminare */
+  margin-bottom: 10px;
   height: 150px;
-  background-color: gray;
+  background-color: lightgray;
+}
+
+footer p{
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  border-bottom: solid;
+  border-color: gray;
+  border-width: 2px;
 }
